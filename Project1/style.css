@@ -1,0 +1,104 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+.main {
+    border-radius: 15px;
+    max-width: 250px;
+    height: 450px;
+    padding: 18px;
+    background-color: hsl(216, 50%, 16%);
+    position: fixed;
+    margin: auto;
+    inset: 0;
+    box-shadow: 3px 3px 14px 0px hsla(216, 56%, 7%, 0.577), 3px 3px 20px 10px hsla(216, 56%, 7%, 0.577), -2px 4px 20px 12px hsla(218, 52%, 12%, 0.665);
+}
+.pic {
+    background-image: url("/image-equilibrium.jpg");
+    width: 100%;
+    height: 56%;
+    border-radius: 8px;
+    background-size: cover;
+    cursor: pointer;
+}
+.active {
+    width: 100%;
+    height: 100%;
+}
+.eyeicon {
+    visibility: hidden;
+    display: inline-block;
+    padding: 101.5px;
+}
+.active:active {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background-color: hsla(178, 100%, 50%, 0.58);
+    
+    .eyeicon {
+        visibility: visible;
+    }
+}
+
+
+
+.heading {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.heading:active {
+    color: cyan;
+
+}
+
+.pragraph {
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(216, 20%, 50%);
+}
+
+.ethclock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    padding-bottom: 8px;
+}
+
+.eth {
+    color: cyan;
+}
+
+.clock {
+    color: hsl(216, 20%, 50%);
+    font-weight: 600;
+}
+
+.ownpic-dis {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ownpic-dis p {
+    color: hsl(0, 0%, 100%);
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.ownpic-dis span {
+    color: hsl(216, 20%, 50%);
+    cursor: pointer;
+}
+
+.ownpic-dis span:active {
+    color: cyan;
+    ;
+}
+
+.ownpic img {
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+}
