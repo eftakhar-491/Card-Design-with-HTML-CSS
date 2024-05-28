@@ -13,7 +13,7 @@ body {
     box-shadow: 3px 3px 14px 0px hsla(216, 56%, 7%, 0.577), 3px 3px 20px 10px hsla(216, 56%, 7%, 0.577), -2px 4px 20px 12px hsla(218, 52%, 12%, 0.665);
 }
 .pic {
-    background-image: url("/image-equilibrium.jpg");
+    background-image: url("image-equilibrium.jpg");
     width: 100%;
     height: 56%;
     border-radius: 8px;
